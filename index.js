@@ -6,7 +6,7 @@ const sequelize = require('./bd.js');
 const token = '6095659226:AAGtGWmZagb4c_PHl3nf_SJmO_5mYKIMzN8';
 const webAppUrl = 'https://4dab-89-22-175-236.ngrok-free.app';
 
-const bot = new TelegramBot(token, {polling: true});
+const bot = new TelegramBot(token, {polling: true}); //////////////////
 const app = express();
 
 app.use(express.json());
