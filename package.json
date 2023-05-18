@@ -1,0 +1,31 @@
+{
+  "name": "tg-web-app-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "node-localstorage": "^2.2.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "sequelize": "^6.30.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demyanchikov/tg-web-app-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/demyanchikov/tg-web-app-node/issues"
+  },
+  "homepage": "https://github.com/demyanchikov/tg-web-app-node#readme",
+  "description": ""
+}
